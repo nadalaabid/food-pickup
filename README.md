@@ -1,4 +1,4 @@
-# Bentilzone Online Restaurant App
+# AUI Food Pickup
 
 ## STACK USED
 - ReactJS (Typescript)
