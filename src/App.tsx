@@ -7,7 +7,6 @@ import {
   Login,
   Menu,
   Profile,
-  Services,
   Signup,
 } from "./Pages";
 import { Cart, Footer, Header } from "./components";
@@ -64,7 +63,6 @@ function App() {
             <Route path="/profile" element={<Profile />} />
             <Route path="/about" element={<About />} />
             <Route path="/menu" element={<Menu />} />
-            <Route path="/services" element={<Services />} />
           </Routes>
 
           {!(adminMode && isAdmin(user)) && <Footer />}
